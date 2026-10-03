@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@keyframes testimonial-slide {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-testimonial-slide {
+  animation: testimonial-slide 700ms ease-out;
+}
